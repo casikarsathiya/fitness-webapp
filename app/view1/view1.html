@@ -1,0 +1,22 @@
+<div class="container-fluid">
+	<div class="row">
+
+		<!--ADDED Directive-->
+		<h1>{{$index}}</h1>
+		<div ng-repeat="product in products"
+			class="prod-box col-xs-4 col-sm-3 col-md-3 col-lg-2">
+			<div class="clearfix"></div>
+			<div class="prod-image">
+				<img class='resize_fit_center' ng-src="{{product.url}}" />
+			</div>
+			<div class="prod-name center-align">
+				<span class="font14 font-pink">{{product.name}}</span>
+			</div>
+			<div class="prod-price font-green center-align">
+				<span class="font14">&#8377;{{product.price}}</span>
+			</div>
+			<div class="prod-offer"></div>
+		</div>
+
+	</div>
+</div>

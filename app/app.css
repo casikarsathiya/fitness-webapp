@@ -1,0 +1,79 @@
+.activeTab {
+	background-color: #ddcf80;
+	border-radius: 10px 10px 0px 0px;
+	color: white !important;
+}
+
+.resize_fit_center {
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+	display: block;
+	margin: auto;
+}
+
+.prod-box {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	/* 	width: 350px; */
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid white;
+}
+
+.prod-box:hover {
+	border: 1px solid blue;
+}
+
+}
+/* .prod-image img { */
+/* /* 	display: inline-block; */
+* /
+	/* 	display: block; margin : auto; */
+	/* /* 	text-align: center; */ * /
+	/* /* 	margin: auto; */ * /
+	/* } */         
+
+.navbar {
+	margin-bottom: 10px;
+}
+
+.width10Px {
+	width: 10px;
+}
+
+.navbar-nav {
+	margin-left: 4em;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 100%;
+	margin-left: 5px;
+	margin-right: 15px;
+}
+
+.carousel-inner {
+	width: 100%;
+	max-height: 300px !important;
+}
+
+.font14 {
+	font-size: 14px;
+}
+
+.font-green {
+	color: #0B610B;
+}
+
+.font-pink {
+	color: rgb(252, 39, 121);
+}
+
+.center-align {
+	text-align: center;
+}
+
+.prod-price:hover {
+	color: rgb(252, 39, 121) !important;
+}
